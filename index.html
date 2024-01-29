@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top center">
+        <section class="top__content"></section>
+        <h1 class="top__head">Добро пожаловать на мой сайт !</h1>
+        <p class="top__paragraph">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="top__parapraph-weight">поехали</span> и <span class="top__parapraph-weight">приступай</span></p>
+        <div class="top__pressButton">
+        <button class="top__button">Поехали!</button>
+        </div>
+    </section>
+    </div>
+        <div class="select center">
+            <a class="select__game select__game_1"href="#"> 
+            <span class="select__gametext">Игра 1</span>
+            </a>
+            <a class="select__game select__game_2"href="#"> 
+            <span class="select__gametext">Игра 2</span>
+            </a>
+            <a class="select__game select__game_3"href="#"> 
+            <span class="select__gametext">Игра 3</span>
+            </a>
+        </div>
+    <div class="content center">
+        <div class="content__picture">
+            <img src="./img/FirstGAME.svg" class="content__firstGameing" alt="Первая игра">
+        </div>
+        <div class="content__text">
+            <h1 class="content__head">Времена года!</h1>
+            <p class="content__paragraph">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <div class="content__pressButton">
+        <button class="content__button" onclick="season()">Играть!</button>
+        </div>
+    </div>
+    </div>
+    <div class="moreContent center">
+        <div class="moreContent__secondPicture">
+            <img src="./img/SecondGAME.svg" class="content__firstGameing" alt="Первая игра">
+        </div>
+        <div class="content__text">
+            <h1 class="content__head">Запомни слова</h1>
+            <p class="content__paragraph">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        <div class="content__pressButton">
+        <button class="content__button" onclick="words()">Играть!</button>
+        </div>
+    </div>
+<script src="script.js">
+</script>
+</body>
+</html>
